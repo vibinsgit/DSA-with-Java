@@ -1,3 +1,5 @@
+//Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+
 import java.util.Scanner;
 
 public class Calculator{
@@ -20,8 +22,12 @@ public class Calculator{
             res = num1 * num2;
             System.out.println(res);
         }else if (op == '/') {
-            res = num1 / num2;
-            System.out.println(res);
+            if(num2 != 0){
+                res = num1 / num2;
+                System.out.println(res);
+            }else{
+                System.out.println("infinity");
+            }
         }
         else{
             System.out.println("Enter a valid operator.");
