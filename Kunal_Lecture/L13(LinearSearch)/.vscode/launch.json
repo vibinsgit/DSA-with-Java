@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "L13(LinearSearch)_4157f941"
+        },
+        {
+            "type": "java",
+            "name": "MinAndMax",
+            "request": "launch",
+            "mainClass": "MinAndMax",
+            "projectName": "L13(LinearSearch)_4157f941"
+        },
+        {
+            "type": "java",
+            "name": "SearchIn2DArray",
+            "request": "launch",
+            "mainClass": "SearchIn2DArray",
+            "projectName": "L13(LinearSearch)_4157f941"
+        },
+        {
+            "type": "java",
+            "name": "SearchInRange",
+            "request": "launch",
+            "mainClass": "SearchInRange",
+            "projectName": "L13(LinearSearch)_4157f941"
+        },
+        {
+            "type": "java",
+            "name": "SearchString",
+            "request": "launch",
+            "mainClass": "SearchString",
+            "projectName": "L13(LinearSearch)_4157f941"
+        }
+    ]
+}
