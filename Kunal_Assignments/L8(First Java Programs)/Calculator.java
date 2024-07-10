@@ -1,4 +1,4 @@
-//Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+//4. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 
 import java.util.Scanner;
 

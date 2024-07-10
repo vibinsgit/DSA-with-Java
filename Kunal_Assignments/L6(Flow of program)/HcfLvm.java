@@ -1,3 +1,5 @@
+//4. Take 2 numbers as inputs and find their HCF and LCM.
+
 import java.util.Scanner;
 
 public class HcfLvm{
@@ -8,7 +10,6 @@ public class HcfLvm{
         num1 = input.nextInt();
         System.out.print("Enter number 2 : ");
         num2 = input.nextInt();
-        input.close();
         temp1 = num1;
         temp2 = num2;
         while(temp2 != 0){
@@ -20,6 +21,7 @@ public class HcfLvm{
         lcm = (num1 * num2) / hcf;
         System.out.println("The HCF of " + num1 + " and " + num2 + " is " + hcf);
         System.out.println("The LCM of " + num1 + " and " + num2 + " is " + lcm);
+        input.close();
     }
     
 }
